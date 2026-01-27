@@ -463,6 +463,7 @@ GameObject:
   - component: {fileID: 2006972585}
   - component: {fileID: 2006972584}
   - component: {fileID: 2006972586}
+  - component: {fileID: 2006972587}
   m_Layer: 0
   m_Name: AudioSource
   m_TagString: Untagged
@@ -558,6 +559,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   InputActions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   mainCamera: {fileID: 877546305}
+--- !u!114 &2006972587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006972583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5ded514ec9224942897feef1ac1a4d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  audioCirclePrefab: {fileID: 2384252017254878314, guid: 49d01a37fe3f2a349a9936ce03d3e169, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

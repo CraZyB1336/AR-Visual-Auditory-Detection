@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5408319675438040176}
   - component: {fileID: 1937839352189688089}
+  - component: {fileID: 2359390864099049295}
   m_Layer: 0
   m_Name: AudioCircle
   m_TagString: Untagged
@@ -91,3 +92,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &2359390864099049295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2384252017254878314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa16ca080d17e59469afb3b3090d265e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  growSpeed: 10
+  maxLifeTime: 6
