@@ -26,8 +26,10 @@ public class ActivateAudio : MonoBehaviour
     {
         if (audioCirclePrefab != null)
         {
-            GameObject audioCircle = Instantiate(audioCirclePrefab, transform);
-            audioCircle.transform.parent = transform;
+            GameObject audioCircle = Instantiate(audioCirclePrefab);
+            audioCircle.transform.position = transform.position;
         }
+
+        
     }
 }
